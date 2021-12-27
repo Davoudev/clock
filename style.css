@@ -12,13 +12,13 @@ body {
     hsl(200, 100%, 50%),
     hsl(175, 100%, 50%)
   );
+
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   overflow: hidden !important;
 }
-
 .clock {
   width: 300px;
   height: 300px;
@@ -51,7 +51,6 @@ body {
 .clock .number1 {
   --rotation: 30deg;
 }
-
 .clock .number2 {
   --rotation: 60deg;
 }
@@ -87,7 +86,6 @@ body {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  /* background-color: #010101; */
   border: 1px solid #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
